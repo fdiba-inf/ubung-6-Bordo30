@@ -6,7 +6,6 @@ public class PasswordCheck {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter password: ");
         boolean valid = false;
 
         do {
