@@ -7,6 +7,7 @@ public class PasswordCheck {
 
         Scanner input = new Scanner(System.in);
         boolean valid = false;
+        System.out.print("Enter password: ");
 
         do {
             String password = input.nextLine();
@@ -32,6 +33,6 @@ public class PasswordCheck {
             }
         } while(valid == false);
 
-        System.out.println("Password is valid!");
+        System.out.println("Password valid!");
     }
 }
